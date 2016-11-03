@@ -1,1 +1,0 @@
-# drishti-assets
