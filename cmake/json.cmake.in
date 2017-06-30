@@ -1,0 +1,6 @@
+{
+    "face_detector": "@FACE_DETECTOR@",
+    "eye_model_regressor": "@EYE_MODEL_REGRESSOR@",
+    "face_landmark_regressor": "@FACE_LANDMARK_REGRESSOR@",
+    "face_detector_mean": "@FACE_DETECTOR_MEAN@"
+}
