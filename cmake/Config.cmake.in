@@ -1,0 +1,12 @@
+@PACKAGE_INIT@
+
+get_filename_component(
+    DRISHTI_ASSETS_TOP "${CMAKE_CURRENT_LIST_DIR}/../../.." ABSOLUTE
+)
+
+set(
+    DRISHTI_ASSETS_FACTORY
+    "${DRISHTI_ASSETS_TOP}/@DATA_INSTALL_DIR@/@FACTORY_NAME@"
+)
+
+check_required_components("@PROJECT_NAME@")
