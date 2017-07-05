@@ -19,6 +19,10 @@ set(FACE_DETECTOR_MEAN "drishti_face_tight_64x64_gray_V5_mean.xml")
 # Use variables:
 # * PROJECT_NAME
 # * FACTORY_NAME
+# * FACE_DETECTOR
+# * EYE_MODEL_REGRESSOR
+# * FACE_LANDMARK_REGRESSOR
+# * FACE_DETECTOR_MEAN
 configure_package_config_file(
     "cmake/Config.cmake.in"
     "${project_config}"
