@@ -11,6 +11,11 @@ set(generated_factory "${generated_dir}/${FACTORY_NAME}")
 
 include(CMakePackageConfigHelpers)
 
+set(FACE_DETECTOR "drishti_face_tight_64x64_gray_V5.cpb")
+set(EYE_MODEL_REGRESSOR "drishti_eye_full_npd_eix.cpb")
+set(FACE_LANDMARK_REGRESSOR "drishti_face_inner.cpb")
+set(FACE_DETECTOR_MEAN "drishti_face_tight_64x64_gray_V5_mean.xml")
+
 # Use variables:
 # * PROJECT_NAME
 # * FACTORY_NAME
@@ -22,11 +27,6 @@ configure_package_config_file(
 )
 
 install(FILES "${project_config}" DESTINATION "${config_install_dir}")
-
-set(FACE_DETECTOR "drishti_face_tight_64x64_gray_V5.cpb")
-set(EYE_MODEL_REGRESSOR "drishti_eye_full_npd_eix.cpb")
-set(FACE_LANDMARK_REGRESSOR "drishti_face_inner.cpb")
-set(FACE_DETECTOR_MEAN "drishti_face_tight_64x64_gray_V5_mean.xml")
 
 # Use variables:
 # * FACE_DETECTOR
