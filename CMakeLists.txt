@@ -12,9 +12,9 @@ set(generated_factory "${generated_dir}/${FACTORY_NAME}")
 include(CMakePackageConfigHelpers)
 
 set(FACE_DETECTOR "drishti_face_tight_64x64_gray_V5.cpb")
-set(EYE_MODEL_REGRESSOR "drishti_eye_full_npd_eix.cpb")
-set(FACE_LANDMARK_REGRESSOR "drishti_face_inner.cpb")
-set(FACE_DETECTOR_MEAN "drishti_face_tight_64x64_gray_V5_mean.xml")
+set(EYE_MODEL_REGRESSOR "drishti_full_eye_model.cpb")
+set(FACE_LANDMARK_REGRESSOR "drishti_full_face_model.cpb")
+set(FACE_DETECTOR_MEAN "drishti_face_tight_64x64_gray_V5_mean.json")
 
 # Use variables:
 # * PROJECT_NAME
