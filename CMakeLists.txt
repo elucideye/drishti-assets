@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
-project(drishti_assets)
+
+project(drishti_assets VERSION 1.7)
 
 set(DATA_INSTALL_DIR "share/${PROJECT_NAME}")
 set(config_install_dir "lib/cmake/${PROJECT_NAME}")
