@@ -15,7 +15,7 @@ include(CMakePackageConfigHelpers)
 set(FACE_DETECTOR "drishti_face_gray_64x64.cpb")
 set(EYE_MODEL_REGRESSOR "drishti_full_eye_model.cpb")
 set(FACE_LANDMARK_REGRESSOR "drishti_full_face_model.cpb")
-set(FACE_DETECTOR_MEAN "drishti_face_tight_64x64_gray_V5_mean.json")
+set(FACE_DETECTOR_MEAN "drishti_face_gray_64x64_mean.json")
 
 # Use variables:
 # * PROJECT_NAME
