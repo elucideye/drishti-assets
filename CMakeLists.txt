@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(drishti_assets VERSION 1.7)
+project(drishti_assets VERSION 1.8)
 
 set(DATA_INSTALL_DIR "share/${PROJECT_NAME}")
 set(config_install_dir "lib/cmake/${PROJECT_NAME}")
@@ -12,10 +12,10 @@ set(generated_factory "${generated_dir}/${FACTORY_NAME}")
 
 include(CMakePackageConfigHelpers)
 
-set(FACE_DETECTOR "drishti_face_tight_64x64_gray_V5.cpb")
+set(FACE_DETECTOR "drishti_face_gray_64x64.cpb")
 set(EYE_MODEL_REGRESSOR "drishti_full_eye_model.cpb")
 set(FACE_LANDMARK_REGRESSOR "drishti_full_face_model.cpb")
-set(FACE_DETECTOR_MEAN "drishti_face_tight_64x64_gray_V5_mean.json")
+set(FACE_DETECTOR_MEAN "drishti_face_gray_64x64_mean.json")
 
 # Use variables:
 # * PROJECT_NAME
